@@ -1,8 +1,12 @@
+"use client";
+import { motion } from 'framer-motion'
 import React from 'react'
+
 
 const ContactPage = () => {
     return (
-        <div>page</div>
+        <motion.div className="h-full" initial={{ y: "-200vh" }} animate={{y:"0%"}}
+        transition={{duration: 1}}>ContactPage</motion.div>
     )
 }
 
