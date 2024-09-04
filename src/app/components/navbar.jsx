@@ -156,7 +156,8 @@ const Navbar = () => {
                      bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-10">
 
                         {links.map((link) =>
-                            <motion.div variants={listItemVariants} className=""
+                            <motion.div variants={listItemVariants} 
+                            className=""
                                 key={link.title}>
                                 <Link href={link.url} >
                                     {link.title}
