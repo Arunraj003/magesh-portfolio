@@ -21,7 +21,7 @@ const Homepage = () => {
       <div className="h-full flex flex-col lg:flex-row 
   px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* image */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 relative">
+        <div className="h-1/2 lg:h-full lg:w-1/2 relative mb-10">
           <Image src="/hero.png" alt="hero"
             className="object-contain" fill />
         </div>
@@ -29,7 +29,7 @@ const Homepage = () => {
         <div className="h-1/2 lg:h-full lg:w-1/2 flex
          flex-col gap-8 items-center justify-center">
           {/* title  */}
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl mt-10 md:text-6xl font-bold">
             Elevating Your Brand's Digital Presence.
           </h1>
           {/* desc  */}
