@@ -95,28 +95,21 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className='hidden md:flex gap-4'>
-                <Link href="/">
+                {/* <Link href="">
                     <Image
                         src="/github.png"
                         alt="github-logo"
                         width={24}
                         height={24} />
-                </Link>
-                <Link href="/">
-                    <Image
-                        src="/facebook.png"
-                        alt="facebook-logo"
-                        width={24}
-                        height={24} />
-                </Link>
-                <Link href="/">
+                </Link> */}
+                <Link href="https://www.instagram.com/call_me_mass_magesh_/">
                     <Image
                         src="/instagram.png"
                         alt="instagram-logo"
                         width={24}
                         height={24} />
                 </Link>
-                <Link href="/">
+                <Link href="https://www.linkedin.com/in/magesh-s-63b101311/">
                     <Image
                         src="/linkedin.png"
                         alt="linkedin-logo"
