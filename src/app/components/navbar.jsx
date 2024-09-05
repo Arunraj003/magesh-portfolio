@@ -6,7 +6,6 @@ import React, { useState } from 'react'
 import NavLink from './navLink'
 import { motion } from 'framer-motion'
 
-
 // menu 
 const links = [
     { url: "/", title: "Home" },
