@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Homepage = () => {
-
+  
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = '/resume .pdf';
@@ -27,7 +27,7 @@ const Homepage = () => {
         </div>
         {/* text */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex
-     flex-col gap-8 items-center justify-center">
+         flex-col gap-8 items-center justify-center">
           {/* title  */}
           <h1 className="text-4xl md:text-6xl font-bold">
             Elevating Your Brand's Digital Presence.
